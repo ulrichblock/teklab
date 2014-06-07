@@ -1,46 +1,5 @@
 #!/bin/bash
-: '~§03842z42=G5W88[%61&8c3443
-¾:51!2b_k727KQ25{7(12Z5F8)VM¾+
-;zQ£2½3G:9Oa0&21¤038[¤dLH!2[[½
--_[1{/?Rg8~0(38}9*x6BRG&y9Z541
-¾/)3[q1Xwmc=[2?6N4??ei:683M105
-*½{4Mx6Kse(Y5w¤$vG4:&+1f%$4p60
-§£b7g)?y5x[h6_3TfGV£J£a*6T95Z6
-.01v39[4-?Dnju02QxS&20&I7)WK9E
-¤O%0)g?-4432J2m4?c:M([f586fv*M
-%1RO439]HP£o*zec6?6uOfcD,I0_3g
-e&£2cJJ62VUrs845D?2s(}0)}8EvG1
--o/&cj7o&&uT0t+m+3}R&c/Lf$nk%S
-n(13?05N8:06w50*743uh-q+hMR08/
-)%)f.d1V3§26ya27&£9M0§5$H&sKMH
-w[2M2:6d688B4Y5m$O637*zHC443!o
-}cu½1]9[O${3DMcl9y6(aIT$7:$kX£
-F+I9HK-2n0709(GltP4d99jg2V£R45
-?20e£21fE5lI2)K,&!N;19Zi!§O]I0
-O£?v+3¾&1HLKZ2G{¤/q?[3?3=(NUPm
-$-933c.8{7+N=99+,daf_{FPcpov3R
-X?77kS%7+2SQ056xz77l½=0k(6q3£h
-£r3:-£8z1(S%7W0*v¾Q14)29½Q¤+Yq
-7!_£)4621U;?V..A:oA30HU0W03&02
-FuwqNo:D?(~4X1e9{/eX-%36§70t-¤
-69½}dqd+¤7¾0pfGz1m2L66JDcRal7)
--g0u-C0C%257p2¾87¾{2O0)Sq2n5Y5
-524?2x£0]2*{[]5b?)A=!W}2O]6CS(
-7G*b&322Y49L6*j7&59*Eim6z%14£0
-4J2c$9WjE!&m0(xU=¤BSn1%ly*1H61
-&8D_e{208?N/+-4M¤B7795W09;0)31
-3Bm2}2)1!2!P55{-JZ739W(525P*}*
-4t7)![1]70)0s8x1V£;NfuP,z(570U
-278!KN&Y_§50¾(?)zp6½0{y}920q4}
-V92?y+7?0gz23?R§i+]0N205{k58Fz
-{+K:24}p578d12(H6+1y}zo8£o{v)k
-VQ£7WE8£o8F?Bu+01nlt§Y¤6{32u2r
-~£43w&A?1%01MY8XS(gr7D¤zM$P{K2
-bqd1U7wh3V3)D+21177bZ6]!14[354
-.{YX)1r9{?5000h_4ijM£IY½31h0H5
-9t[2PH4F¤)8=c80¾/03X3f2*4(O196
-{j68R$[1B63g2N06-6&0s74{n5)+n¤
-                              '
+
 function red_msg() {
 	echo -e "\\033[31;1m${@}\033[0m"
 }
@@ -66,11 +25,7 @@ function cyan_msg() {
 }
 
 IMVERSION="1.9.2"
-LICENCE=`wget -q -O - http://programme.ulrich-block.de/licence.php?p=i`
-if [ "$LICENCE" != "Ich habe bezahlt" ]; then
-	red_msg "Invalid licence for this server. Please contact the author."
-	exit 0
-fi
+
 #IMBINPATH=`readlink -f $0`
 #HOME=`dirname $IMBINPATH`
 HOME=$PWD
