@@ -731,7 +731,7 @@ cd $HOME
 		fi
 		chmod +x $HOME/im_temp/$KUERZEL.update.sh
 		screen -dmS $KUERZEL.update $HOME/im_temp/$KUERZEL.update.sh
-		green_msg "Updating/Installing the server in the screen $KUERZEL.update. Depending on your an Valve´s connection this can take a while. If you want to see the progress open the $KUERZEL-update.log in the im_logs directory"
+		green_msg "Updating/Installing the server in the screen $KUERZEL.update. Depending on your an ValveÂ´s connection this can take a while. If you want to see the progress open the $KUERZEL-update.log in the im_logs directory"
 	fi
 else
 	if [ "$(screen -ls | grep \"$KUERZEL.update\" | awk '{print $1}' | awk -F "." '{print $2}')" == "$KUERZEL.update" ]; then
@@ -749,7 +749,7 @@ cd $HOME
 		fi
 		chmod +x $HOME/im_temp/$KUERZEL.update.sh
 		screen -dmS $KUERZEL.update $HOME/im_temp/$KUERZEL.update.sh
-		green_msg "Updating/Installing the server in the screen $KUERZEL.update. Depending on your an Valve´s connection this can take a while. If you want to see the progress open the $KUERZEL-update.log in the im_logs directory"
+		green_msg "Updating/Installing the server in the screen $KUERZEL.update. Depending on your an ValveÂ´s connection this can take a while. If you want to see the progress open the $KUERZEL-update.log in the im_logs directory"
 	fi
  fi
 }
@@ -1407,7 +1407,7 @@ rm $HOME/im_temp/$KUERZEL.update.sh
 		fi
 		chmod +x $HOME/im_temp/$KUERZEL.update.sh
 		screen -dmS $KUERZEL.update $HOME/im_temp/$KUERZEL.update.sh
-		green_msg "Updating/Installing the server in the screen $KUERZEL.update. Depending on your an Valve´s connection this can take a while. 
+		green_msg "Updating/Installing the server in the screen $KUERZEL.update. Depending on your an ValveÂ´s connection this can take a while. 
 If you want to see the progress open the $KUERZEL-update.log in the im_logs directory"
 		echo "`date`: Updater for $KUERZEL started" >> $IMLOG
 	fi
@@ -1427,7 +1427,7 @@ rm $HOME/im_temp/$KUERZEL.update.sh
 		fi
 		chmod +x $HOME/im_temp/$KUERZEL.update.sh
 		screen -dmS $KUERZEL.update $HOME/im_temp/$KUERZEL.update.sh
-		green_msg "Updating/Installing the server in the screen $KUERZEL.update . Depending on your an Valve´s connection this can take a while. 
+		green_msg "Updating/Installing the server in the screen $KUERZEL.update . Depending on your an ValveÂ´s connection this can take a while. 
 If you want to see the progress open the $KUERZEL-update.log in the im_logs directory"
 		echo "`date`: Updater for $KUERZEL started" >> $IMLOG
 	fi
@@ -1751,7 +1751,7 @@ Image Manger for Tekbaseimages
 Version $IMVERSION
 Copyright (c)2010-2011
 Ulrich Block
-ulblock@gmx.de 
+ich@ulrich-block.de 
 www.ulrich-block.de
 
 Note: for Counter-Strike Source you need to replace the steam shorten with css
