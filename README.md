@@ -4,7 +4,7 @@ teklab
 Skripte für Tekbase von Teklab.de
 
 
-Author: Ulrich Block ulblock@gmx.de
+Author: Ulrich Block ich@ulrich-block.de
 
 Kontakt: www.ulrich-block.de
 
