@@ -8,7 +8,7 @@
 #  Ulrich Block                                                            #
 #                                                                          #
 #  Contact:                                                                #
-#  ulblock at gmx.de                                                       #
+#  ich@ulrich-block.de                                                     #
 #  www.ulrich-block.de                                                     #
 #                                                                          #
 #  Singe server updating and installing:                                   #
@@ -151,7 +151,7 @@ function server_delete {
  for S in $INSTALLED; do
   echo "Kuerzel: $S"
  done
- echo "Welcher Server und das zugehörige Image soll geloescht werden? 
+ echo "Welcher Server und das zugehÃ¶rige Image soll geloescht werden? 
 Gib bitte das Kuerzel ein:"
  read AUSWAHL
  rm -rf $SERVERDIR/$AUSWAHL $IMAGEDIR/$AUSWAHL.*
